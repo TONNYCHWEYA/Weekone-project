@@ -15,17 +15,20 @@
     white 5%,
     white 100%
   );
+  display: inline;
+
 }
 
   *{
     font-family: 'Nunito';
-    margin: auto;
+   margin: auto;
     padding: 0;
     
   }
   .container{
     display: flex;
     align-items: center;
+    margin: 20px;
   }
   .img-col{
     width: 300px;
@@ -48,4 +51,25 @@
     width: 200px;
     height: 200px;
 
+  }
+  .background{
+    background: linear-gradient(
+      to right,
+      #EC4067 0%,
+      #EC4067 55%,
+      white 55%,
+      white 100%
+    );
+    border-radius: 5px;
+  }
+  .enroll{
+    background: #EC4067;
+    border-radius: 5px;
+  }
+  #explore{
+    border: 1px solid #EC4067;
+    border-radius: 5px;
+  }
+  sub{
+    display: inline;
   }
