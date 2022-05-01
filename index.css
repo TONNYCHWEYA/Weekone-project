@@ -1,0 +1,51 @@
+.title{
+  display: flex;
+
+}
+.top{
+  position: relative;
+  left: 150px;
+}
+
+#stories{
+  background: linear-gradient(
+    to right,
+    lightgrey 0%,
+    lightgrey 5%,
+    white 5%,
+    white 100%
+  );
+}
+
+  *{
+    font-family: 'Nunito';
+    margin: auto;
+    padding: 0;
+    
+  }
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  .img-col{
+    width: 300px;
+  }
+  .text-col{
+    height: 200px;
+    width: 400px;
+  }
+  
+  .cover{
+    width: 900px;
+    height: 400px;
+    display: flex;
+  }
+  .box{
+    width: 800px;
+    height: 400px;
+  }
+  .Mentors{
+    width: 200px;
+    height: 200px;
+
+  }
