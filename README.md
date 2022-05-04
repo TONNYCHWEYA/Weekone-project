@@ -16,8 +16,9 @@
 [Go Back to the top](#MORINGA LANDING PAGE)
 ## Features
 As a user of the application,you will be able to :
-1. See a description of what the services offered by the studio
-1. Can make inquiry through a form.
+1. Describes the school.
+2. 
+3. 
 [Go Back to the top](#MORINGA LANDING PAGE)
 ## Behaviour Driven Development|
 | Behaviour      | Input        | Output       |
