@@ -17,7 +17,7 @@
 ## Features
 As a user of the application,you will be able to :
 1. Describes the school.
-2. Lists Tech
+2. Lists Techn
 3. 
 [Go Back to the top](#MORINGA LANDING PAGE)
 ## Behaviour Driven Development|
