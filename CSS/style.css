@@ -1,75 +1,108 @@
-.title{
-  display: flex;
-
-}
-.top{
-  position: relative;
-  left: 150px;
-}
-
-#stories{
-  background: linear-gradient(
-    to right,
-    lightgrey 0%,
-    lightgrey 5%,
-    white 5%,
-    white 100%
-  );
-  display: inline;
-
-}
-
-  *{
-    font-family: 'Nunito';
-   margin: auto;
-    padding: 0;
-    
-  }
-  .container{
-    display: flex;
-    align-items: center;
-    margin: 20px;
-  }
-  .img-col{
-    width: 300px;
-  }
-  .text-col{
-    height: 200px;
-    width: 400px;
-  }
+body{
+  font-style: 'Nunito';
+  margin: 0 auto;
   
-  .cover{
-    width: 900px;
-    height: 400px;
-    display: flex;
-  }
-  .box{
-    width: 800px;
-    height: 400px;
-  }
-  .Mentors{
-    width: 200px;
-    height: 200px;
+  
+}
+ul{
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  overflow: hidden;
+  
+  
+}
+ul>li{
+  
+  float: left;
+}
+li>a{
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;  
+  color: black;
+}
+.containerheader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.buttons{
+  background-color: #EC4067;
+  border-radius: 5px;
+}
+.container{
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+  align-items: center;
+  
+  justify-content: center;
+  padding: 80px;
+  margin-bottom: -70px;
+  
 
+}
+.container>div{
+
+ width: 100%;
+  
+}
+.container>div>img{
+  width: 70%;
+
+
+}
+@media(max-width: 600px){
+  .container{
+    flex-direction: column;
+    align-items: center;
   }
-  .background{
-    background: linear-gradient(
-      to right,
-      #EC4067 0%,
-      #EC4067 55%,
-      white 55%,
-      white 100%
-    );
-    border-radius: 5px;
+  .container>div>img{
+    width: 100%;
   }
-  .enroll{
-    background: #EC4067;
-    border-radius: 5px;
+}
+.title{
+  margin-left: 150px;
+  margin-bottom: -70px;
+  font-size: 12px;
+  
+  
+  
+}
+.cover{
+  margin-top: 70px;
+  display: flex;
+  margin-left: 150px ;
+  margin-right: 80px;
+  justify-content: center;
+}
+.cover>div{
+  width: 25%;
+}
+.cover>div>*{
+  width: 80%;
+}
+@media(max-width: 600px){
+  .cover{
+    flex-direction: column;
   }
-  #explore{
-    border: 1px solid #EC4067;
-    border-radius: 5px;
+  .cover>div{
+    width: 100%;
   }
-  sub{
-    display: inline;
-  }
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.last{
+  margin-left: 150px;
+}
